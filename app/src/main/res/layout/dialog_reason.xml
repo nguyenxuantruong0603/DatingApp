@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:gravity="center"
+        android:text="Tôi ở đây để ?"
+        android:textColor="#000000"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:padding="@dimen/_4sdp"
+            android:id="@+id/rdNewFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:button="@drawable/radio_reason_selector"
+            android:checked="false"
+            android:fontFamily="sans-serif-black"
+            android:text="     Tìm bạn mới"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:padding="@dimen/_4sdp"
+            android:id="@+id/rdChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:button="@drawable/radio_reason_selector"
+            android:checked="false"
+            android:fontFamily="sans-serif-black"
+            android:text="     Để chat"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:padding="@dimen/_4sdp"
+            android:id="@+id/rdFindBestFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:button="@drawable/radio_reason_selector"
+            android:checked="false"
+            android:fontFamily="sans-serif-black"
+            android:text="     Tìm một người thân"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:padding="@dimen/_4sdp"
+            android:id="@+id/rdFindRelationship"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_8sdp"
+            android:button="@drawable/radio_reason_selector"
+            android:fontFamily="sans-serif-black"
+            android:text="     Để tìm một mối quan hệ nghiêm túc"
+            android:textColor="#000000" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="TESST" />
+
+</LinearLayout>

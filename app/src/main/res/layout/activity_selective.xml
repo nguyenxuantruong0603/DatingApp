@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_8sdp"
+    android:paddingTop="@dimen/_16sdp"
+    tools:context="com.example.DatingApp.SelectiveActivity">
+
+    <TextView
+        android:textSize="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rdNam"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nam_selector"
+            android:button="@color/colorAccent"
+            android:checked="false"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+            android:text="Nam"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rdNu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nu_selector"
+            android:button="@color/colorAccent"
+            android:checked="false"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+            android:text="Nữ"
+            android:textColor="#000000" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rdCahai"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_cahai_selector"
+            android:button="@color/colorAccent"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:onClick="onRadioButtonClicked"
+            android:text="Cả hai"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_weight="4"
+            android:text="Tuổi"
+            android:textColor="#000000"
+            android:textSize="@dimen/_20sdp" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/tvAgeMin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:text="18"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:text=" - "
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:id="@+id/tvAgeMax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:text="30"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <io.apptik.widget.MultiSlider
+        android:id="@+id/range_slider5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/custom_seebar"
+        app:drawThumbsApart="true"
+        app:rangeColor="#fc826d"
+        app:stepsThumbsApart="12"
+        app:thumbNumber="2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:layout_weight="4"
+            android:text="Khoảng cách"
+            android:textColor="#000000"
+            android:textSize="@dimen/_20sdp" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/tvKhoangCach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:fontFamily="sans-serif"
+                android:gravity="right"
+                android:textSize="@dimen/_20sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <io.apptik.widget.MultiSlider
+        android:id="@+id/range_khoangcach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:thumb="@drawable/custom_seebar"
+        app:drawThumbsApart="true"
+        app:rangeColor="#fc826d"
+        app:stepsThumbsApart="1"
+        app:thumbNumber="2" />
+
+
+</LinearLayout>
