@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.DatingApp.R;
-import com.example.DatingApp.adapter.AdapterViewpager;
+import com.example.DatingApp.adapter.viewpager.AdapterViewpager;
 import com.example.DatingApp.model.Meeting;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;

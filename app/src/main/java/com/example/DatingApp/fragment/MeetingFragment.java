@@ -18,9 +18,9 @@ import androidx.recyclerview.widget.DiffUtil;
 
 import com.example.DatingApp.CardStackView.AdapterCardStack;
 import com.example.DatingApp.CardStackView.CardStackCallback;
-import com.example.DatingApp.MainActivity;
 import com.example.DatingApp.R;
-import com.example.DatingApp.SelectiveActivity;
+import com.example.DatingApp.activity.MainActivity;
+import com.example.DatingApp.activity.SelectiveActivity;
 import com.example.DatingApp.model.Meeting;
 import com.yuyakaido.android.cardstackview.CardStackLayoutManager;
 import com.yuyakaido.android.cardstackview.CardStackListener;
@@ -36,8 +36,8 @@ import static com.example.DatingApp.fragment.HomeFragment.setupData;
 
 public class MeetingFragment extends Fragment {
     CardStackView cardStackView;
-    CardStackLayoutManager manager;
-    private AdapterCardStack adapterCardStack;
+    public static CardStackLayoutManager manager;
+    AdapterCardStack adapterCardStack;
     FrameLayout layout;
 
     @Nullable
@@ -51,6 +51,8 @@ public class MeetingFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
         cardStackView = view.findViewById(R.id.card_stack_view_meeting);
         manager = new CardStackLayoutManager(getContext(), new CardStackListener() {
             @Override
@@ -104,7 +106,7 @@ public class MeetingFragment extends Fragment {
         manager.setCanScrollVertical(false);
         manager.setSwipeableMethod(SwipeableMethod.Manual);
         manager.setOverlayInterpolator(new LinearInterpolator());
-        adapterCardStack = new AdapterCardStack(addList());
+        adapterCardStack = new AdapterCardStack(addList(), getContext());
         cardStackView.setLayoutManager(manager);
         cardStackView.setAdapter(adapterCardStack);
         cardStackView.setItemAnimator(new DefaultItemAnimator());

@@ -5,17 +5,17 @@
     android:orientation="vertical">
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -33,25 +33,34 @@
             android:text="Chiều cao"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="170cm"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgsetHeight"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -69,25 +78,34 @@
             android:text="Cân nặng"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cân nặng"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgsetWeight"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -105,25 +123,34 @@
             android:text="Rượu bia"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvWine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vodka 12"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgsetWine"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -141,25 +168,34 @@
             android:text="Hút thuốc"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvSmoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="555"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgSetSmoke"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -177,25 +213,34 @@
             android:text="Ngôn ngữ"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvLanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiếng Việt"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgsetLanguage"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -213,25 +258,34 @@
             android:text="Nơi sống"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Việt Nam"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgsetLocation"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -249,25 +303,34 @@
             android:text="Hôn nhân"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvMarriage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Độc thân"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgSetMarriage"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>
 
     <View
-        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_1sdp"
         android:layout_marginTop="@dimen/_12sdp"
         android:layout_marginRight="@dimen/_14sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:background="#646464" />
 
     <LinearLayout
-        android:layout_marginLeft="-12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="-12dp"
         android:orientation="horizontal"
         android:weightSum="7">
 
@@ -285,9 +348,18 @@
             android:text="Tôn giáo"
             android:textSize="@dimen/_15sdp" />
 
+        <TextView
+            android:id="@+id/tvReligion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không"
+            android:textSize="@dimen/_15sdp" />
+
         <ImageView
+            android:id="@+id/imgSetReligion"
             android:layout_width="@dimen/_15sdp"
             android:layout_height="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
             android:layout_weight="1"
             android:src="@drawable/ic_next" />
     </LinearLayout>

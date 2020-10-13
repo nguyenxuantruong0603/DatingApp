@@ -1,4 +1,4 @@
-package com.example.DatingApp;
+package com.example.DatingApp.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatRadioButton;
+
+import com.example.DatingApp.R;
 
 import io.apptik.widget.MultiSlider;
 

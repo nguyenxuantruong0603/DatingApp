@@ -1,4 +1,4 @@
-package com.example.DatingApp.adapter;
+package com.example.DatingApp.adapter.viewpager;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -48,9 +48,9 @@ public class AdapterViewpager extends PagerAdapter {
         tvBottomSheetName = view.findViewById(R.id.tvBottomSheetName);
         tvBottomSheetLocation = view.findViewById(R.id.tvBottomSheetLocation);
         tvBottomSheetAge = view.findViewById(R.id.tvBottomSheetAge);
-        floatingActionButtonCanel = view.findViewById(R.id.floating_action_button_canel);
-        floatingActionButtonLike = view.findViewById(R.id.floating_action_button_like);
-        floatingActionButtonLove = view.findViewById(R.id.floating_action_button_love);
+        floatingActionButtonCanel = view.findViewById(R.id.floating_action_button_canel_Home);
+        floatingActionButtonLike = view.findViewById(R.id.floating_action_button_like_Home);
+        floatingActionButtonLove = view.findViewById(R.id.floating_action_button_love_Home);
 
 
 

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.DatingApp.ChatActivity;
+import com.example.DatingApp.activity.ChatActivity;
 import com.example.DatingApp.R;
 import com.example.DatingApp.model.ChatModel;
 import com.squareup.picasso.Picasso;

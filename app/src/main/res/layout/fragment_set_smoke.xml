@@ -1,0 +1,129 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4a40ff"
+    tools:context="com.example.DatingApp.fragment.informationfragment.SetSmokeFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_margin="@dimen/_16sdp"
+        app:cardBackgroundColor="#6464"
+        app:cardCornerRadius="@dimen/_12sdp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@id/imgCancel"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:src="@drawable/ic_baseline_clear_24" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-200dp"
+        android:src="@drawable/ic_smoke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-130dp"
+        android:text="Hút thuốc"
+        android:textColor="#FFF"
+        android:textSize="@dimen/_20sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/background_fragment"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_24sdp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rdLikeSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:button="@drawable/radio_smoke_selector"
+                android:fontFamily="sans-serif-black"
+                android:text="     Tôi thích hút thuốc"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rdAllwaySmoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:button="@drawable/radio_smoke_selector"
+                android:fontFamily="sans-serif-black"
+                android:text="     Tôi thường xuyên hút thuốc"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rdHateSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:button="@drawable/radio_smoke_selector"
+                android:fontFamily="sans-serif-black"
+                android:text="     Tôi không thích hút thuốc"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rdOftenSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:button="@drawable/radio_smoke_selector"
+                android:fontFamily="sans-serif-black"
+                android:text="     Thi thoảng hút thuốc"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/rdNoViewSmoke"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_weight="1"
+                android:button="@drawable/radio_smoke_selector"
+                android:fontFamily="sans-serif-black"
+                android:text="     Không hiển thị"
+                android:textColor="#000000" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imgSaveSmoke"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_gravity="center"
+            android:background="@drawable/radio_reason_checked" />
+
+        <TextView
+            android:id="@+id/tvNextSmoke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:text="Bỏ qua"
+            android:textSize="@dimen/_20sdp" />
+    </LinearLayout>
+
+
+</FrameLayout>

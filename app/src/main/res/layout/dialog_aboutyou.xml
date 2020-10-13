@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:maxLength="500"
+        android:maxLines="5"
+        android:layout_margin="@dimen/_16sdp"
+        android:id="@+id/edtAboutYou"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cho chúng tôi biết thêm về bạn"/>
+
+    <ImageButton
+        android:id="@+id/btnSaveAboutYou"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/radio_reason_checked"/>
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.DatingApp;
+package com.example.DatingApp.activity;
 
 import android.annotation.SuppressLint;
 import android.graphics.Color;
@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.DatingApp.R;
 import com.squareup.picasso.Picasso;
 
 public class ChatActivity extends AppCompatActivity {

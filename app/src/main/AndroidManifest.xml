@@ -9,13 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InformationUserActivity"></activity>
-        <activity android:name=".SelectiveActivity" />
-        <activity android:name=".ChatActivity" />
+        <activity android:name=".activity.DetailActivity"></activity>
+        <activity android:name=".activity.WorkEducationActivity" />
+        <activity android:name=".activity.AccountActivity" />
+        <activity android:name=".activity.InformationUserActivity" />
+        <activity android:name=".activity.SelectiveActivity" />
+        <activity android:name=".activity.ChatActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label="@string/title_activity_main" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

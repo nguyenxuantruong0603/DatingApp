@@ -1,4 +1,4 @@
-package com.example.DatingApp;
+package com.example.DatingApp.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.DatingApp.R;
 
 public class LoginActivity extends AppCompatActivity {
     private ActionBar toolbar;

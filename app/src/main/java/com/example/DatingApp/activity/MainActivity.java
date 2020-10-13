@@ -1,4 +1,4 @@
-package com.example.DatingApp;
+package com.example.DatingApp.activity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.example.DatingApp.R;
 import com.example.DatingApp.fragment.ChatFragment;
 import com.example.DatingApp.fragment.HomeFragment;
 import com.example.DatingApp.fragment.MeetingFragment;
@@ -24,10 +25,12 @@ public class MainActivity extends AppCompatActivity {
     public static TextView tvTitle, tvSetting;
     public static ImageView imgOpition, imgBackButton;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
 
         getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);

@@ -13,8 +13,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.DatingApp.InformationUserActivity;
-import com.example.DatingApp.MainActivity;
+import com.example.DatingApp.activity.InformationUserActivity;
+import com.example.DatingApp.activity.MainActivity;
 import com.example.DatingApp.R;
 
 public class UserFragment extends Fragment {

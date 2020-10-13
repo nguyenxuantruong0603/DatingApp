@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingLeft="@dimen/_8sdp"
     android:paddingTop="@dimen/_16sdp"
-    tools:context="com.example.DatingApp.SelectiveActivity">
+    tools:context="com.example.DatingApp.activity.SelectiveActivity">
 
     <TextView
         android:textSize="@dimen/_20sdp"

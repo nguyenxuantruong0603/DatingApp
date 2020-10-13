@@ -7,7 +7,7 @@
     android:layout_marginLeft="@dimen/_14sdp"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="com.example.DatingApp.InformationUserActivity">
+    tools:context="com.example.DatingApp.activity.InformationUserActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -19,14 +19,14 @@
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
             android:orientation="vertical"
-            tools:context="com.example.DatingApp.InformationUserActivity">
+            tools:context="com.example.DatingApp.activity.InformationUserActivity">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_8sdp"
                 android:orientation="horizontal">
-
+                                                                                                                                                            
                 <com.makeramen.roundedimageview.RoundedImageView
                     android:layout_width="@dimen/_180sdp"
                     android:layout_height="@dimen/_180sdp"
@@ -100,6 +100,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/tvNameInformation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Nữ, Hà Nội" />
@@ -129,6 +130,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/tvAddWork"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:onClick="AddWork"
@@ -144,6 +146,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/tvAboutYou"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Cho chúng tôi biết thêm về bạn..." />
