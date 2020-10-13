@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/expandableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/_8sdp"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:id="@+id/deltai_meeting_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Maria EMIFUTU"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/love" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/deltai_meeting_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phạm Văn Đồng"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:background="@drawable/shape_information"
+            android:drawableLeft="@drawable/ic_female"
+            android:gravity="center"
+            android:text="20"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Về tôi"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexWrap="wrap">
+
+        <TextView
+            android:id="@+id/tvFamilyMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_love_black"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" Độc thân"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHouseMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_home"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" Với ba mẹ"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDrinkLikeMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_wine"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" Rượu"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvHeightMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_ruler"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" 170cm"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLanguageMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_language"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" Tiếng việt"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWeightMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_gym"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" 49 kg"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvchildbirthMeeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:drawableLeft="@drawable/ic_baby"
+            android:gravity="center"
+            android:padding="@dimen/_8sdp"
+            android:text=" Một ngày nào đó"
+            android:textStyle="bold" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gaixinh" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_250sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gaixinh" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:background="@color/opacity"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_250sdp"
+                android:gravity="center"
+                android:text="+5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Yêu thích"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexWrap="wrap">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Dancer"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Âm nhạc"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Du lịch"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Bơi lội"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Đọc sách"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Cầu lông"
+            android:textStyle="bold" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Tìm kiếm"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexWrap="wrap">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_8sdp"
+            android:background="@drawable/shape_detail_meeting"
+            android:padding="@dimen/_8sdp"
+            android:text="Bạn bè"
+            android:textStyle="bold" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_margin="@dimen/_16sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button_canel_Meeting"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:backgroundTint="@color/white"
+            app:borderWidth="0dp"
+            app:elevation="2dp"
+            app:fabCustomSize="@dimen/_50sdp"
+            app:srcCompat="@drawable/ic_cancel"
+            tools:ignore="VectorDrawableCompat" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button_like_Meeting"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:backgroundTint="#FFFFFF"
+            app:borderWidth="0dp"
+            app:elevation="2dp"
+            app:fabCustomSize="@dimen/_50sdp"
+            app:srcCompat="@drawable/love" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_action_button_love_Meeting"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:backgroundTint="#FFFFFF"
+            app:borderWidth="0dp"
+            app:elevation="2dp"
+            app:fabCustomSize="@dimen/_50sdp"
+            app:srcCompat="@drawable/love_arrow" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:text="Khóa hoặc tố giác"
+        android:textSize="@dimen/_20sdp" />
+
+</LinearLayout>
